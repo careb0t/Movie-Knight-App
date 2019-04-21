@@ -1,0 +1,24 @@
+.MovieItemContainer {
+    border: rgb(66, 24, 100) 1px solid;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(66, 53, 104);
+    padding: 15px 5px 15px 5px;
+    margin: 0px;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+ }
+
+ .MovieItemContainer span {
+    font-size: .8rem
+ }
+
+ .MovieItemPlot {
+    padding: 20px 0;
+    text-align: left;
+ }
+
+.MoviePoster {
+    max-height: 200px;
+    margin: 0 0 20px 0;
+}

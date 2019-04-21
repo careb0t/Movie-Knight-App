@@ -1,0 +1,10 @@
+.SuggestionBoxContainer {
+    width: 60vw;
+    height: 60vh;
+    background-color: pink;
+    border: purple 3px solid;
+}
+
+.SuggestionBoxPoster {
+    max-height: 400px;
+}

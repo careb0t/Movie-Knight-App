@@ -1,0 +1,16 @@
+.FooterText {
+    text-align: center;
+    color: rgb(115, 97, 158);
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 10px 0px;
+    font-size: .9rem;
+}
+
+.FooterText a {
+    color: rgb(203, 140, 255)
+}
+
+.FooterText a:hover {
+    color: rgb(117, 82, 146)
+}

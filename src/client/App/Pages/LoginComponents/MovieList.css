@@ -1,0 +1,147 @@
+.MovieListSearchbar {
+    width: 60%;
+    background-color: rgb(62, 49, 102);
+    border: rgb(46, 14, 71) 3px solid;
+    border-radius: 15px;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    padding: 5px 15px;
+    margin: 0 0 20px 0;
+}
+
+.MovieListSearchbarActive {
+   width: 60%;
+   background-color: rgb(62, 49, 102);
+   border: white 3px solid;
+   border-radius: 15px;
+   color: white;
+   font-family: 'Quicksand', sans-serif;
+   padding: 5px 15px;
+   margin: 0 0 20px 0;
+   animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+   50% {
+      border: rgb(46, 14, 71) 3px solid
+   }
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+    color: rgb(143, 121, 182);
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+    text-align: center;
+    color: rgb(143, 121, 182);
+ }
+ 
+ ::-moz-placeholder {  /* Firefox 19+ */
+    text-align: center; 
+    color: rgb(143, 121, 182); 
+ }
+ 
+ :-ms-input-placeholder {  
+    text-align: center; 
+    color: rgb(143, 121, 182);
+ }
+
+ .MovieListMainContent {
+    padding-bottom: 30px;
+ }
+
+ .MoviePlaceholderContainer {
+   border: rgb(66, 24, 100) 1px solid;
+   border-radius: 10px;
+   background-color: rgb(66, 53, 104);
+   padding: 15px 5px 15px 5px;
+   margin: 0px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .MoviePlaceholderContainer:hover {
+    cursor: pointer;
+    background-color: rgb(79, 66, 117);
+ }
+
+.PlaceholderIcon {
+   font-size: 10rem;
+}
+
+.PlaceholderText {
+   color: rgb(129, 103, 161);
+   font-family: 'Quicksand', sans-serif;
+   font-size: 1.8rem;
+}
+
+.SuggestionContainer {
+   max-height: 60vh;
+   margin-bottom: 30px;
+   overflow-y: auto;
+   scrollbar-color: rgb(106, 79, 128) rgb(46, 14, 71);
+   scrollbar-width: thin;
+   text-align: left;
+   border: rgb(66, 24, 100) 1px solid;
+   border-radius: 10px;
+   background-color: rgb(66, 53, 104);
+}
+
+.NoneFound {
+   color: white;
+   font-family: 'Quicksand', sans-serif;
+   font-size: 1.4rem;
+}
+
+.CloseSuggestion {
+   float: right;
+}
+
+.CloseSuggestion:hover {
+   cursor: pointer;
+}
+
+.ActiveSuggestionContainer {
+   background-color: rgb(66, 53, 104);
+   padding: 10px;
+   color: white;
+   font-family: 'Quicksand', sans-serif
+}
+
+.ActiveSuggestionPoster {
+   max-height: 400px;
+}
+
+.Hidden {
+   display: none;
+}
+
+.ActiveSuggestionTitleContainer {
+   text-align: center;
+   padding-bottom: 20px
+}
+
+.ActiveSuggestionTitle {
+   color: white;
+   font-family: "Quicksand", sans-serif;
+   font-size: 1.6rem;
+}
+
+.ActiveSuggestionHeader {
+   font-size: 1.2rem;
+   text-decoration: underline;
+}
+
+.ActiveSuggestionDetailContainer {
+   text-align: center;
+}
+
+.ActiveSuggestionOverviewContainer {
+   padding: 20px 0;
+}
+
+.SuggestionButtonContainer {
+   text-align: center;
+}

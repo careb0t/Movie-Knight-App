@@ -1,0 +1,33 @@
+.CommandsContainer {
+    background-color: rgb(71, 56, 99);
+    padding: 100px 0px;
+}
+
+.Commands {
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+table {
+    color: white;
+    margin: auto;
+    font-family: 'Quicksand', sans-serif
+}
+
+table thead {
+    border-bottom: 2px solid white;
+}
+
+table tbody tr {
+    border-top: 1px solid white;
+}
+
+table td {
+    padding: 10px 10px;
+}
+
+table p {
+    margin: 0;
+}

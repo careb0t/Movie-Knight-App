@@ -1,0 +1,18 @@
+.AlertContainer {
+    background-color: rgb(255, 176, 231);
+    border: rgb(219, 49, 219) 3px solid;
+    width: 700px;
+    margin: 0 auto 20px auto;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.AlertCloseButton {
+    float: right;
+    padding-right: 5px
+}
+
+.AlertCloseButton:hover {
+    cursor: pointer;
+}

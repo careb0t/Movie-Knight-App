@@ -1,0 +1,23 @@
+.Tagline {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    padding: 75px 50px;
+    color: white;
+}
+
+.FeatureName {
+    color: white;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.FeatureDesc {
+    color: white;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    padding-bottom: 75px;
+}
+
+hr {
+	border-top: 1px solid #ffffff !important;
+}

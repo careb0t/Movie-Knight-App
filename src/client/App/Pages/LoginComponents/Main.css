@@ -1,0 +1,38 @@
+.NoGuild {
+    text-align: left;
+    flex-grow: 1;
+    background-image: url(/src/client/App/Assets/movieknightbk.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.NoGuild span {
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    opacity: .5;
+}
+
+.MainContainer {
+    flex-grow: 1;
+}
+
+.MainContainerRow {
+    max-height: 100% !important;
+}
+
+.MovieListContainer {
+    border: rgb(66, 24, 100) 1px solid;
+    border-radius: 10px;
+    margin: 20px 0 0 0;
+    padding: 30px 15px;
+    text-align: center;
+    background-color: rgb(72, 59, 112);
+    max-height: 85vh;
+    overflow-y: auto;
+    scrollbar-color: rgb(106, 79, 128) rgb(46, 14, 71);
+    scrollbar-width: thin;
+}
+
+
+
+

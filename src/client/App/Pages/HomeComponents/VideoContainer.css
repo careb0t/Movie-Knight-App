@@ -1,0 +1,8 @@
+.VideoContainer {
+    padding-bottom: 100px;
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+}

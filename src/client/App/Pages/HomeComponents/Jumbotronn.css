@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron|Quicksand');
+
+.Jumbotron {
+    text-align: center;
+    background: linear-gradient(208deg, #8449d1, #055991);
+    background-size: 400% 400%;
+    -webkit-animation: GradientFade 8s ease infinite;
+    -moz-animation: GradientFade 8s ease infinite;
+    animation: GradientFade 8s ease infinite;
+    height: 60vh;
+    margin: 0 !important;
+}
+
+@-webkit-keyframes GradientFade {
+    0%{background-position:82% 0%}
+    50%{background-position:19% 100%}
+    100%{background-position:82% 0%}
+}
+@-moz-keyframes GradientFade {
+    0%{background-position:82% 0%}
+    50%{background-position:19% 100%}
+    100%{background-position:82% 0%}
+}
+@keyframes GradientFade {
+    0%{background-position:82% 0%}
+    50%{background-position:19% 100%}
+    100%{background-position:82% 0%}
+}
+
+.Logo {
+    max-height: 25vh;
+}
+
+.Jumbotron h1 {
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    padding: 50px 0;
+}
+
+.Jumbotron button {
+    background-color:transparent;
+    border: 1px solid #ffffff;
+    color: white;
+    transition: all 0.3s;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.25rem;
+    padding: 5px 20px;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+
+.Jumbotron button:hover {
+    color: #201e27;
+    background-color: white;
+}

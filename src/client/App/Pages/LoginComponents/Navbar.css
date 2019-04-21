@@ -1,0 +1,60 @@
+.NavbarContainer {
+    background-color: rgb(35, 30, 51);
+}
+
+.GuildButton {
+    max-height: 50px;
+    margin: 10px 5px 10px 5px;
+    border: 3px rgb(100, 76, 177) solid;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+
+.GuildButton:hover {
+    cursor: pointer;
+    border: 3px rgb(216, 216, 216) solid;
+    opacity: 1;
+}
+
+.SelectedGuildButton {
+    border: rgb(97, 192, 255) 3px solid;
+    opacity: 1;
+    max-height: 55px;
+    margin: 5px 5px 5px 5px;
+}
+
+.SelectedGuildButton:hover {
+    border: rgb(97, 192, 255) 3px solid;
+}
+
+.UserContainer {
+    text-align: right;
+}
+
+.UserContainer:hover {
+    cursor: pointer;
+}
+
+.UserButton {
+    max-height: 50px;
+    border: none;
+    margin: 10px 10px 10px 0px;
+    border-radius: 50px;
+}
+
+.UserText {
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0 10px 0 0;
+}
+
+@media screen and (max-width: 605px) {
+    .UserText {
+        display: none;
+    }
+}
+
+.DownChevy {
+    color: rgb(122, 93, 219);
+}
+
