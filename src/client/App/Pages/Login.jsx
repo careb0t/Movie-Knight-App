@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 require('es6-promise').polyfill();
 const fetch = require('isomorphic-fetch');
 const queryString = require('query-string')
-const dbSettings = "testlol"
+const dbSettings = require('../../apiKey.json')
 import './Login.css'
 import Navbar from './LoginComponents/Navbar'
 import Main from './LoginComponents/Main'
