@@ -2,7 +2,7 @@
   "name": "movie-knight-app",
   "version": "1.0.0",
   "description": "App for Movie Knight bot!",
-  "main": "src/server/index.js",
+  "homepage": "https://github.com/alexbondf1/Movie-Knight-App",
   "scripts": {
     "build": "webpack --mode production",
     "start": "npm run build && node src/server/index.js",
