@@ -20,7 +20,7 @@
     "fetch": "^1.1.0",
     "image-data-uri": "^2.0.0",
     "isomorphic-fetch": "^2.2.1",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "mongoose": "^5.4.22",
     "query-string": "^6.4.2",
     "react": "^16.5.2",
