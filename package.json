@@ -16,7 +16,7 @@
     "babel-polyfill": "^6.26.0",
     "bootstrap": "^4.3.1",
     "es6-promise": "^4.2.6",
-    "express": "^4.16.3",
+    "express": "^4.18.2",
     "fetch": "^1.1.0",
     "image-data-uri": "^2.0.0",
     "isomorphic-fetch": "^2.2.1",
